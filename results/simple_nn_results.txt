@@ -1,0 +1,135 @@
+
+================================================================================
+Run timestamp: 2025-12-07 01:40:46
+Val loss: 1.0268 | Val accuracy: 0.5870
+Test loss: 1.0888 | Test accuracy: 0.5688
+
+Validation classification report:
+              precision    recall  f1-score   support
+
+   political       0.86      0.68      0.76       161
+      sexual       0.75      0.32      0.45       180
+       troll       0.48      0.40      0.44       179
+      threat       0.91      0.68      0.78       179
+     neutral       0.40      0.87      0.55       180
+
+    accuracy                           0.59       879
+   macro avg       0.68      0.59      0.59       879
+weighted avg       0.67      0.59      0.59       879
+
+Validation confusion matrix:
+[[109   0  18   3  31]
+ [  6  57  32   3  82]
+ [  3  11  72   2  91]
+ [  2   5  19 122  31]
+ [  7   3  10   4 156]]
+
+Test classification report:
+              precision    recall  f1-score   support
+
+   political       0.90      0.63      0.74       162
+      sexual       0.71      0.23      0.35       179
+       troll       0.48      0.41      0.44       180
+      threat       0.91      0.70      0.79       178
+     neutral       0.38      0.88      0.53       180
+
+    accuracy                           0.57       879
+   macro avg       0.68      0.57      0.57       879
+weighted avg       0.67      0.57      0.57       879
+
+Test confusion matrix:
+[[102   0  19   3  38]
+ [  3  42  37   1  96]
+ [  3   8  74   8  87]
+ [  3   5   9 124  37]
+ [  2   4  16   0 158]]
+
+================================================================================
+Run timestamp: 2025-12-07 01:43:30
+Val loss: 1.0352 | Val accuracy: 0.6064
+Test loss: 1.0617 | Test accuracy: 0.5950
+
+Validation classification report:
+              precision    recall  f1-score   support
+
+   political       0.58      0.93      0.71       161
+      sexual       0.53      0.62      0.57       180
+       troll       0.60      0.16      0.25       179
+      threat       0.90      0.72      0.80       179
+     neutral       0.53      0.64      0.58       180
+
+    accuracy                           0.61       879
+   macro avg       0.63      0.61      0.58       879
+weighted avg       0.63      0.61      0.58       879
+
+Validation confusion matrix:
+[[150   3   1   2   5]
+ [ 24 112   6   5  33]
+ [ 33  62  28   5  51]
+ [ 13  19   6 128  13]
+ [ 40  16   6   3 115]]
+
+Test classification report:
+              precision    recall  f1-score   support
+
+   political       0.58      0.93      0.72       162
+      sexual       0.48      0.61      0.54       179
+       troll       0.67      0.16      0.26       180
+      threat       0.89      0.73      0.80       178
+     neutral       0.51      0.58      0.54       180
+
+    accuracy                           0.59       879
+   macro avg       0.63      0.60      0.57       879
+weighted avg       0.63      0.59      0.57       879
+
+Test confusion matrix:
+[[151   4   1   2   4]
+ [ 26 109   5   3  36]
+ [ 30  63  29  10  48]
+ [  7  27   3 130  11]
+ [ 46  24   5   1 104]]
+
+================================================================================
+Run timestamp: 2025-12-07 01:44:10
+Val loss: 1.0265 | Val accuracy: 0.5688
+Test loss: 1.0948 | Test accuracy: 0.5552
+
+Validation classification report:
+              precision    recall  f1-score   support
+
+   political       0.83      0.63      0.72       161
+      sexual       0.78      0.30      0.43       180
+       troll       0.49      0.25      0.33       179
+      threat       0.70      0.83      0.76       179
+     neutral       0.39      0.84      0.54       180
+
+    accuracy                           0.57       879
+   macro avg       0.64      0.57      0.56       879
+weighted avg       0.64      0.57      0.55       879
+
+Validation confusion matrix:
+[[101   0   3   8  49]
+ [  6  54  23  28  69]
+ [  3  12  45  21  98]
+ [  2   2   9 149  17]
+ [  9   1  11   8 151]]
+
+Test classification report:
+              precision    recall  f1-score   support
+
+   political       0.88      0.56      0.68       162
+      sexual       0.68      0.25      0.37       179
+       troll       0.54      0.29      0.38       180
+      threat       0.70      0.82      0.75       178
+     neutral       0.38      0.86      0.53       180
+
+    accuracy                           0.56       879
+   macro avg       0.63      0.56      0.54       879
+weighted avg       0.63      0.56      0.54       879
+
+Test confusion matrix:
+[[ 91   0   5   9  57]
+ [  5  45  21  28  80]
+ [  3  10  52  21  94]
+ [  1   7   6 146  18]
+ [  4   4  13   5 154]]
