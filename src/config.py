@@ -10,7 +10,7 @@ RAW_DATA_PATH = DATA_DIR / "CyberBulling_Dataset_Bangla.xlsx"
 
 # Directories for artefacts
 NOTEBOOKS_DIR = ROOT_DIR / "notebooks"
-SAVED_MODELS_DIR = ROOT_DIR / "saved_models"
+SAVED_MODELS_DIR = ROOT_DIR / "models"
 
 # To make sure dirs exist
 for d in [DATA_DIR, NOTEBOOKS_DIR, SAVED_MODELS_DIR]:
