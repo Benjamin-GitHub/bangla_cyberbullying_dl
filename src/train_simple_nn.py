@@ -168,6 +168,9 @@ def main():
         callbacks=[early_stop, checkpoint],
         verbose=1,
     )
+    # Save training history for later visualisation
+    history_path = RESULTS_DIR / "simple_nn_history.npy"
+    np.save(history_path, history.history)
 
     # 6. Evaluate on validation & test sets
     print("\nEvaluating on validation set...")
