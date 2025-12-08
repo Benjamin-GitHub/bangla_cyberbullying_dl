@@ -1,0 +1,45 @@
+
+================================================================================
+Run timestamp: 2025-12-08 14:53:18
+Val metrics (best): {'accuracy': 0.7565415244596132, 'macro_f1': 0.7574751465019588, 'weighted_f1': 0.7550438159325417}
+Test accuracy: 0.7474, macro F1: 0.7506, weighted F1: 0.7482
+
+Validation classification report:
+              precision    recall  f1-score   support
+
+   political       0.87      0.88      0.87       161
+      sexual       0.72      0.73      0.73       180
+       troll       0.64      0.58      0.61       179
+      threat       0.85      0.85      0.85       179
+     neutral       0.71      0.76      0.73       180
+
+    accuracy                           0.76       879
+   macro avg       0.76      0.76      0.76       879
+weighted avg       0.75      0.76      0.76       879
+
+Validation confusion matrix:
+[[141   1   9   3   7]
+ [  5 132  22   6  15]
+ [  6  36 103   9  25]
+ [  6   7   5 153   8]
+ [  4   8  22  10 136]]
+
+Test classification report:
+              precision    recall  f1-score   support
+
+   political       0.88      0.84      0.86       162
+      sexual       0.70      0.69      0.70       179
+       troll       0.57      0.59      0.58       180
+      threat       0.84      0.88      0.86       178
+     neutral       0.76      0.74      0.75       180
+
+    accuracy                           0.75       879
+   macro avg       0.75      0.75      0.75       879
+weighted avg       0.75      0.75      0.75       879
+
+Test confusion matrix:
+[[136   5   9   8   4]
+ [  6 124  29   3  17]
+ [  7  32 107  18  16]
+ [  2   7   8 156   5]
+ [  3   8  35   0 134]]
