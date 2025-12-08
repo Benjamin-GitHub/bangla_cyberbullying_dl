@@ -30,7 +30,7 @@ def plot_curves(history: dict, title_prefix: str, out_prefix: str):
         plt.plot(epochs, val_acc, label="Val accuracy")
         plt.xlabel("Epoch")
         plt.ylabel("Accuracy")
-        plt.title(f"{title_prefix} – Accuracy")
+        plt.title(f"{title_prefix} - Accuracy")
         plt.legend()
         plt.grid(True, linestyle="--", alpha=0.5)
         plt.tight_layout()
