@@ -15,9 +15,9 @@ import tensorflow as tf
 
 import joblib
 import pandas as pd
-from tensorflow.keras import layers, models, callbacks
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras import layers, models, callbacks # pyright: ignore[reportMissingImports]
+from tensorflow.keras.preprocessing.text import Tokenizer # pyright: ignore[reportMissingImports]
+from tensorflow.keras.preprocessing.sequence import pad_sequences # pyright: ignore[reportMissingImports]
 from sklearn.metrics import classification_report, confusion_matrix
 
 from src.data_utils import prepare_dataframe, stratified_splits, ID2LABEL

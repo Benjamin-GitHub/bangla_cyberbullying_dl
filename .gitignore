@@ -4,3 +4,13 @@ __pycache__/
 saved_models/
 *.pyc
 .DS_Store
+# virtualenvs
+venv/
+.venv/
+
+# local data
+data/
+*.xlsx
+
+# training artifacts we don't need in git
+models/*.joblib

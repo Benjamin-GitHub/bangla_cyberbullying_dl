@@ -167,7 +167,7 @@ def build_keras_tokenizer(
     """
     Fit a Keras Tokenizer on the training texts.
     """
-    from tensorflow.keras.preprocessing.text import Tokenizer
+    from tensorflow.keras.preprocessing.text import Tokenizer # pyright: ignore[reportMissingImports]
     tokenizer = Tokenizer(num_words=num_words, oov_token=oov_token)
     tokenizer.fit_on_texts(texts)
     return tokenizer
@@ -181,7 +181,7 @@ def texts_to_padded_sequences(
     """
     Convert a list/array of texts into padded sequences.
     """
-    from tensorflow.keras.preprocessing.sequence import pad_sequences
+    from tensorflow.keras.preprocessing.sequence import pad_sequences # pyright: ignore[reportMissingImports]
     sequences = tokenizer.texts_to_sequences(texts)
     padded = pad_sequences(sequences, maxlen=max_len, padding="post", truncating="post")
     return padded
